@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/praxtutoring/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/praxtutoring/static/js/main.0f990291.chunk.js",
-    "main.js.map": "/praxtutoring/static/js/main.0f990291.chunk.js.map",
-    "runtime-main.js": "/praxtutoring/static/js/runtime-main.875ada11.js",
-    "runtime-main.js.map": "/praxtutoring/static/js/runtime-main.875ada11.js.map",
-    "static/js/2.6ea2f7cb.chunk.js": "/praxtutoring/static/js/2.6ea2f7cb.chunk.js",
-    "static/js/2.6ea2f7cb.chunk.js.map": "/praxtutoring/static/js/2.6ea2f7cb.chunk.js.map",
-    "static/js/3.f3682fdc.chunk.js": "/praxtutoring/static/js/3.f3682fdc.chunk.js",
-    "static/js/3.f3682fdc.chunk.js.map": "/praxtutoring/static/js/3.f3682fdc.chunk.js.map",
+    "main.css": "/praxtutoring/static/css/main.69823c94.chunk.css",
+    "main.js": "/praxtutoring/static/js/main.7f31f65b.chunk.js",
+    "main.js.map": "/praxtutoring/static/js/main.7f31f65b.chunk.js.map",
+    "runtime-main.js": "/praxtutoring/static/js/runtime-main.c4d4294a.js",
+    "runtime-main.js.map": "/praxtutoring/static/js/runtime-main.c4d4294a.js.map",
+    "static/js/2.58a12df5.chunk.js": "/praxtutoring/static/js/2.58a12df5.chunk.js",
+    "static/js/2.58a12df5.chunk.js.map": "/praxtutoring/static/js/2.58a12df5.chunk.js.map",
+    "static/js/3.d3e0a688.chunk.js": "/praxtutoring/static/js/3.d3e0a688.chunk.js",
+    "static/js/3.d3e0a688.chunk.js.map": "/praxtutoring/static/js/3.d3e0a688.chunk.js.map",
     "index.html": "/praxtutoring/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/praxtutoring/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.6ea2f7cb.chunk.js.LICENSE.txt": "/praxtutoring/static/js/2.6ea2f7cb.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/praxtutoring/static/media/logo.103b5fa1.svg"
+    "static/css/main.69823c94.chunk.css.map": "/praxtutoring/static/css/main.69823c94.chunk.css.map",
+    "static/js/2.58a12df5.chunk.js.LICENSE.txt": "/praxtutoring/static/js/2.58a12df5.chunk.js.LICENSE.txt",
+    "static/media/a.066deda3.jpg": "/praxtutoring/static/media/a.066deda3.jpg",
+    "static/media/index.css": "/praxtutoring/static/media/nyala.152bdbba.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.875ada11.js",
-    "static/js/2.6ea2f7cb.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.0f990291.chunk.js"
+    "static/js/runtime-main.c4d4294a.js",
+    "static/js/2.58a12df5.chunk.js",
+    "static/css/main.69823c94.chunk.css",
+    "static/js/main.7f31f65b.chunk.js"
   ]
 }
