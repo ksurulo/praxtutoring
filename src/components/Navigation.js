@@ -6,13 +6,12 @@ import React from 'react';
 
 export function Navigation() {
    return (
-      <Paper>
-
+      <Paper className="paper">
          <Grid
             container
-            direction="row"
-            justify="space-between"
-            alignItems="flex-start">
+            direction="column"
+            justify="center"
+            alignItems="center">
                <div className="title">
                   PRA(X)TUTORING
                </div>
