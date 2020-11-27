@@ -32,6 +32,9 @@ export function Navigation() {
                   textColor="primary"
                   className="navigation"
                >
+                  <Link to="/" style={{color: 'inherit', textDecoration: 'inherit'}}><Tab label="Home"
+                                                                                          className="navigation" /></Link>
+
                   <Link to="/offer" style={{color: 'inherit', textDecoration: 'inherit'}}><Tab label="Oferta"
                                                                                                className="navigation" /></Link>
                   <Link to="/contact" style={{color: 'inherit', textDecoration: 'inherit'}}><Tab label="Kontakt"
@@ -60,8 +63,17 @@ export function Navigation() {
    );
 
    function Home() {
-      <img src={logo} className="App-logo" alt="logo" />
-      return <h2>Home</h2>;
+      return <Grid
+         container
+         direction="column"
+         justify="center"
+         alignItems="center"
+      >
+         <img src={logo} className="App-logo" alt="logo" />
+         <Paper className="mainGrid">
+            <div className="abc">HOME</div>
+         </Paper>
+      </Grid>;
    }
 
    function About() {
@@ -73,22 +85,25 @@ export function Navigation() {
       >
          <img src={logo} className="App-logo" alt="logo" />
          <Paper className="mainGrid">
-         <div className="abc">O Nas</div>
+            <div className="abc">O Nas</div>
 
-            <img src={mordka} className="mordka"  />
+            <img src={mordka} className="mordka" />
             <p className="text">Nazywam się Maria Praxmayer i jestem korepetytorką od ponad 4 lat.
-            Na ich przestrzeni wiele zmieniło się w moim życiu - kiedy zaczynałam uczyć, sama uczyłam się na profilu
-            hiszpańskojęzycznym w Gimnazjum nr 2 im. Adama Mickiewicza w Krakowie i byłam przyboczną zuchową w
-            fantastycznej 20 Krakowskiej Gromadzie Zuchenek ,,Kubusie Puchatki". Poźniej uczyłam się w II Liceum
-            Ogólnokształcącym im. Króla Jana III Sobieskiego w Krakowie na profilu matematyczno-fizyczno-angielskim z
-            matematyką akademicką. W międzyczasie zmieniłam pole działania wolontaryjnego na Akademię Przyszłości, gdzie
-            nauczyłam się, jak lepiej prowadzić pracę indywidualną z dzieckiem.
-            Rok 2020 dla mnie okazał się być czasem rozwoju - w tym trudnym okresie miałam okazję zdawać maturę (z
-            bardzo dobrymi wynikami), ukończyć kurs języka hiszpańskiego na poziomie B2 (wyższy średniozaawansowany)
-            oraz uzyskać renomowany certyfikat znajomości języka angielskiego IELTS na poziomie C1. Obecnie rozpoczęłam
-            studia na Glasgow Caledonian University w Szkocji na kierunku Psychologia Stosowana oraz (ukłony dla nauki
-            zdalnej, która to umożliwiła) studia matematyczne na Uniwersytecie Jagiellońskim. W ten sposób realizuję
-            dwie z moich pasji - trzecią jest nauczanie. </p>
+               Na ich przestrzeni wiele zmieniło się w moim życiu - kiedy zaczynałam uczyć, sama uczyłam się na profilu
+               hiszpańskojęzycznym w Gimnazjum nr 2 im. Adama Mickiewicza w Krakowie i byłam przyboczną zuchową w
+               fantastycznej 20 Krakowskiej Gromadzie Zuchenek ,,Kubusie Puchatki". Poźniej uczyłam się w II Liceum
+               Ogólnokształcącym im. Króla Jana III Sobieskiego w Krakowie na profilu matematyczno-fizyczno-angielskim z
+               matematyką akademicką. W międzyczasie zmieniłam pole działania wolontaryjnego na Akademię Przyszłości,
+               gdzie
+               nauczyłam się, jak lepiej prowadzić pracę indywidualną z dzieckiem.
+               Rok 2020 dla mnie okazał się być czasem rozwoju - w tym trudnym okresie miałam okazję zdawać maturę (z
+               bardzo dobrymi wynikami), ukończyć kurs języka hiszpańskiego na poziomie B2 (wyższy średniozaawansowany)
+               oraz uzyskać renomowany certyfikat znajomości języka angielskiego IELTS na poziomie C1. Obecnie
+               rozpoczęłam
+               studia na Glasgow Caledonian University w Szkocji na kierunku Psychologia Stosowana oraz (ukłony dla
+               nauki
+               zdalnej, która to umożliwiła) studia matematyczne na Uniwersytecie Jagiellońskim. W ten sposób realizuję
+               dwie z moich pasji - trzecią jest nauczanie. </p>
          </Paper>
       </Grid>
    }
@@ -102,7 +117,7 @@ export function Navigation() {
       >
          <img src={logo} className="App-logo" alt="logo" />
          <Paper className="mainGrid">
-            <h2>Contact</h2>
+            <div className="abc">Contact</div>
          </Paper>
       </Grid>;
    }
