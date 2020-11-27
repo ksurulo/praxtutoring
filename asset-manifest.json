@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/praxtutoring/static/css/main.69823c94.chunk.css",
-    "main.js": "/praxtutoring/static/js/main.7f31f65b.chunk.js",
-    "main.js.map": "/praxtutoring/static/js/main.7f31f65b.chunk.js.map",
-    "runtime-main.js": "/praxtutoring/static/js/runtime-main.c4d4294a.js",
-    "runtime-main.js.map": "/praxtutoring/static/js/runtime-main.c4d4294a.js.map",
-    "static/js/2.58a12df5.chunk.js": "/praxtutoring/static/js/2.58a12df5.chunk.js",
-    "static/js/2.58a12df5.chunk.js.map": "/praxtutoring/static/js/2.58a12df5.chunk.js.map",
-    "static/js/3.d3e0a688.chunk.js": "/praxtutoring/static/js/3.d3e0a688.chunk.js",
-    "static/js/3.d3e0a688.chunk.js.map": "/praxtutoring/static/js/3.d3e0a688.chunk.js.map",
+    "main.css": "/praxtutoring/static/css/main.fdfec3dc.chunk.css",
+    "main.js": "/praxtutoring/static/js/main.38a1c5b8.chunk.js",
+    "main.js.map": "/praxtutoring/static/js/main.38a1c5b8.chunk.js.map",
+    "runtime-main.js": "/praxtutoring/static/js/runtime-main.b7e31f95.js",
+    "runtime-main.js.map": "/praxtutoring/static/js/runtime-main.b7e31f95.js.map",
+    "static/js/2.af9e9e78.chunk.js": "/praxtutoring/static/js/2.af9e9e78.chunk.js",
+    "static/js/2.af9e9e78.chunk.js.map": "/praxtutoring/static/js/2.af9e9e78.chunk.js.map",
+    "static/js/3.3452083f.chunk.js": "/praxtutoring/static/js/3.3452083f.chunk.js",
+    "static/js/3.3452083f.chunk.js.map": "/praxtutoring/static/js/3.3452083f.chunk.js.map",
     "index.html": "/praxtutoring/index.html",
-    "static/css/main.69823c94.chunk.css.map": "/praxtutoring/static/css/main.69823c94.chunk.css.map",
-    "static/js/2.58a12df5.chunk.js.LICENSE.txt": "/praxtutoring/static/js/2.58a12df5.chunk.js.LICENSE.txt",
-    "static/media/a.066deda3.jpg": "/praxtutoring/static/media/a.066deda3.jpg",
-    "static/media/index.css": "/praxtutoring/static/media/nyala.152bdbba.ttf"
+    "static/css/main.fdfec3dc.chunk.css.map": "/praxtutoring/static/css/main.fdfec3dc.chunk.css.map",
+    "static/js/2.af9e9e78.chunk.js.LICENSE.txt": "/praxtutoring/static/js/2.af9e9e78.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/praxtutoring/static/media/nyala.152bdbba.ttf",
+    "static/media/zeszyt.5e5b4657.jpg": "/praxtutoring/static/media/zeszyt.5e5b4657.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c4d4294a.js",
-    "static/js/2.58a12df5.chunk.js",
-    "static/css/main.69823c94.chunk.css",
-    "static/js/main.7f31f65b.chunk.js"
+    "static/js/runtime-main.b7e31f95.js",
+    "static/js/2.af9e9e78.chunk.js",
+    "static/css/main.fdfec3dc.chunk.css",
+    "static/js/main.38a1c5b8.chunk.js"
   ]
 }
