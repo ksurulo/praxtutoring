@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/praxtutoring/static/css/main.fdfec3dc.chunk.css",
-    "main.js": "/praxtutoring/static/js/main.38a1c5b8.chunk.js",
-    "main.js.map": "/praxtutoring/static/js/main.38a1c5b8.chunk.js.map",
+    "main.css": "/praxtutoring/static/css/main.d1c97252.chunk.css",
+    "main.js": "/praxtutoring/static/js/main.a28e627b.chunk.js",
+    "main.js.map": "/praxtutoring/static/js/main.a28e627b.chunk.js.map",
     "runtime-main.js": "/praxtutoring/static/js/runtime-main.b7e31f95.js",
     "runtime-main.js.map": "/praxtutoring/static/js/runtime-main.b7e31f95.js.map",
     "static/js/2.af9e9e78.chunk.js": "/praxtutoring/static/js/2.af9e9e78.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.3452083f.chunk.js": "/praxtutoring/static/js/3.3452083f.chunk.js",
     "static/js/3.3452083f.chunk.js.map": "/praxtutoring/static/js/3.3452083f.chunk.js.map",
     "index.html": "/praxtutoring/index.html",
-    "static/css/main.fdfec3dc.chunk.css.map": "/praxtutoring/static/css/main.fdfec3dc.chunk.css.map",
+    "static/css/main.d1c97252.chunk.css.map": "/praxtutoring/static/css/main.d1c97252.chunk.css.map",
     "static/js/2.af9e9e78.chunk.js.LICENSE.txt": "/praxtutoring/static/js/2.af9e9e78.chunk.js.LICENSE.txt",
     "static/media/index.css": "/praxtutoring/static/media/nyala.152bdbba.ttf",
     "static/media/zeszyt.5e5b4657.jpg": "/praxtutoring/static/media/zeszyt.5e5b4657.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.b7e31f95.js",
     "static/js/2.af9e9e78.chunk.js",
-    "static/css/main.fdfec3dc.chunk.css",
-    "static/js/main.38a1c5b8.chunk.js"
+    "static/css/main.d1c97252.chunk.css",
+    "static/js/main.a28e627b.chunk.js"
   ]
 }
