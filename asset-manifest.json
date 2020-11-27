@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/praxtutoring/static/css/main.fd3be8e8.chunk.css",
-    "main.js": "/praxtutoring/static/js/main.04e44400.chunk.js",
-    "main.js.map": "/praxtutoring/static/js/main.04e44400.chunk.js.map",
+    "main.js": "/praxtutoring/static/js/main.664b2666.chunk.js",
+    "main.js.map": "/praxtutoring/static/js/main.664b2666.chunk.js.map",
     "runtime-main.js": "/praxtutoring/static/js/runtime-main.d868c5f4.js",
     "runtime-main.js.map": "/praxtutoring/static/js/runtime-main.d868c5f4.js.map",
-    "static/js/2.70120d56.chunk.js": "/praxtutoring/static/js/2.70120d56.chunk.js",
-    "static/js/2.70120d56.chunk.js.map": "/praxtutoring/static/js/2.70120d56.chunk.js.map",
+    "static/js/2.25159060.chunk.js": "/praxtutoring/static/js/2.25159060.chunk.js",
+    "static/js/2.25159060.chunk.js.map": "/praxtutoring/static/js/2.25159060.chunk.js.map",
     "static/js/3.759c7d6f.chunk.js": "/praxtutoring/static/js/3.759c7d6f.chunk.js",
     "static/js/3.759c7d6f.chunk.js.map": "/praxtutoring/static/js/3.759c7d6f.chunk.js.map",
     "index.html": "/praxtutoring/index.html",
     "static/css/main.fd3be8e8.chunk.css.map": "/praxtutoring/static/css/main.fd3be8e8.chunk.css.map",
-    "static/js/2.70120d56.chunk.js.LICENSE.txt": "/praxtutoring/static/js/2.70120d56.chunk.js.LICENSE.txt",
+    "static/js/2.25159060.chunk.js.LICENSE.txt": "/praxtutoring/static/js/2.25159060.chunk.js.LICENSE.txt",
     "static/media/index.css": "/praxtutoring/static/media/nyala.152bdbba.ttf",
     "static/media/ryjek.38bce102.jpg": "/praxtutoring/static/media/ryjek.38bce102.jpg",
     "static/media/zeszyt.5e5b4657.jpg": "/praxtutoring/static/media/zeszyt.5e5b4657.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d868c5f4.js",
-    "static/js/2.70120d56.chunk.js",
+    "static/js/2.25159060.chunk.js",
     "static/css/main.fd3be8e8.chunk.css",
-    "static/js/main.04e44400.chunk.js"
+    "static/js/main.664b2666.chunk.js"
   ]
 }
