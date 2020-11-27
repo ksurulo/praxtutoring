@@ -17,7 +17,7 @@ import '../App.css';
 
 export function Offer() {
 
-   const initial_state = "Poziomy nauczania:"
+   const initial_state = "Wybierz poziom nauczania"
    const [anchorEl, setAnchorEl] = React.useState(null);
    const open = Boolean(anchorEl);
    const [offerButtontext, setOfferButtonText] = React.useState(initial_state);
@@ -68,6 +68,9 @@ export function Offer() {
          direction="column"
          justify="center"
          alignItems="center">
+
+        <div className="abc">Oferta:</div>
+
          <Button aria-controls="fade-menu" aria-haspopup="true" onClick={handleClick}>
             {offerButtontext}
          </Button>
