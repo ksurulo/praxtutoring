@@ -24,12 +24,18 @@
 }
 .mainGrid{
   font-family: Nyala, serif;
-}
+  width: 50%;
 
-.priceBook{
-  width: 40%;
 }
 .abc{
   font-size: 250%;
+  font-family: Nyala, serif;
+}
+.mordka{
+  float: right;
+  padding: 0 10px 0 0;}
+
+.text{
+  font-size: 150%;
   font-family: Nyala, serif;
 }

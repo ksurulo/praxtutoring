@@ -27,9 +27,6 @@ function App() {
             alignItems="center"
          >
             <Navigation />
-
-               <img src={logo} className="App-logo" alt="logo" />
-            <Offer />
          </Grid>
       </Paper>
    );

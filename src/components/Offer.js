@@ -62,7 +62,6 @@ export function Offer() {
       setAnchorEl(null);
    };
    return (
-      <div className="priceBook">
       <Grid
          container
          direction="column"
@@ -108,6 +107,5 @@ export function Offer() {
             </Table>
          </TableContainer>
       </Grid>
-      </div>
    );
 }
