@@ -1,41 +1,73 @@
 .App-logo {
-  object-fit: cover;
-  width: 60%;
-  height: 300px;
-}
-.title{
-  text-align: left;
-  font-family: Nyala, serif;
-  font-size: 300%;
-
-}
-.navigation
-{
-  text-align: right;
+   object-fit: cover;
+   height: 250px;
+   width: 60%;
 }
 
-.paper{
-  width: 100%;
-}
-
-.imageGrid{
-  width: 100%;
-  height: 50px;
-}
-.mainGrid{
-  font-family: Nyala, serif;
-  width: 50%;
+.title {
+   text-align: left;
+   font-family: Nyala, serif;
+   font-size: 300%;
 
 }
-.abc{
-  font-size: 250%;
-  font-family: Nyala, serif;
-}
-.mordka{
-  float: right;
-  padding: 0 10px 0 0;}
 
-.text{
-  font-size: 150%;
-  font-family: Nyala, serif;
+.navigation {
+   text-align: right;
+}
+
+.paper {
+   width: 100%;
+}
+
+.mainPaper {
+   font-family: Nyala, serif;
+   box-sizing: border-box;
+   width: 60%;
+   padding: 20px 20px 20px 20px;
+
+}
+
+.subtitle {
+   font-size: 250%;
+   font-family: Nyala, serif;
+   margin-bottom: 20px;
+}
+
+.subtitle2 {
+   font-size: 200%;
+   font-family: Nyala, serif;
+}
+
+.subtitle3 {
+   font-size: 160%;
+   font-family: Nyala, serif;
+}
+
+.right{
+   float: right;
+}
+
+.left{
+   float: left;
+}
+.avatar_image{
+   width: 200px;
+   object-fit: cover;
+   height: 200px;
+
+   border-radius: 50%;
+   margin: 10px 10px 10px 10px;
+}
+
+.text {
+   font-size: 110%;
+   font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.contentGrid {
+   margin: 20px 20px 20px 20px;
+}
+
+.hidden {
+   visibility: hidden;
 }
