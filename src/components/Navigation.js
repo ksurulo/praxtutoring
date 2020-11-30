@@ -21,7 +21,7 @@ export function Navigation() {
          <Grid
             container
             direction="row"
-            justify="center"
+            justify="space-evenly"
             alignItems="center">
             <div className="title">
                PRA(X)TUTORING

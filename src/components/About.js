@@ -17,7 +17,7 @@ export default function About() {
          <div className="subtitle">O Nas</div>
 
 
-         <img src={mordka} className="avatar_image right" />
+         <img src={mordka} className="avatar_image right" alt="Maria" />
          <div className="subtitle2">Maria</div>
          <p className="text">Nazywam się Maria Praxmayer i jestem korepetytorką od ponad 4 lat.
             Na ich przestrzeni wiele zmieniło się w moim życiu - kiedy zaczynałam uczyć, sama uczyłam się na profilu
@@ -28,7 +28,7 @@ export default function About() {
             gdzie</p>
 
          <div className="right">
-            <img src={mordka2} className="avatar_image left" />
+            <img src={mordka2} className="avatar_image left" alt="Krzysztof"/>
             <div className="subtitle2">Krzysztof</div>
             <p className="text">Nazywam się Maria Praxmayer i jestem korepetytorką od ponad 4 lat.
                Na ich przestrzeni wiele zmieniło się w moim życiu - kiedy zaczynałam uczyć, sama uczyłam się na profilu
