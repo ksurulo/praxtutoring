@@ -17,6 +17,8 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
+          GIT_CONFIG_NAME: ksurulo
+          GIT_CONFIG_EMAIL: krzysztof.surulo@gmail.com
           ACCESS_TOKEN: ${{ secrets.REPO_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: build # The folder the action should deploy.
