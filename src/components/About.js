@@ -23,7 +23,7 @@ export default function About() {
             Na ich przestrzeni wiele zmieniło się w moim życiu - kiedy zaczynałam uczyć, sama uczyłam się na profilu
             hiszpańskojęzycznym w Gimnazjum nr 2 im. Adama Mickiewicza w Krakowie i byłam przyboczną zuchową w
             fantastycznej 20 Krakowskiej Gromadzie Zuchenek ,,Kubusie Puchatki". Poźniej uczyłam się w II Liceum
-            Ogólnokształcącym im. Króla Jana III Sobieskiego w Krakowie na profilu matematyczno-fizyczno-angielskim z
+            Ogólnokształcącym im. Króla Jana III  Sobieskiego w Krakowie na profilu matematyczno-fizyczno-angielskim z
             matematyką akademicką. W międzyczasie zmieniłam pole działania wolontaryjnego na Akademię Przyszłości,
             gdzie</p>
 
