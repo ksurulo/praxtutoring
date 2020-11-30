@@ -25,7 +25,7 @@ export default function About() {
             fantastycznej 20 Krakowskiej Gromadzie Zuchenek ,,Kubusie Puchatki". Poźniej uczyłam się w II Liceum
             Ogólnokształcącym im. Króla Jana III  Sobieskiego w Krakowie na profilu matematyczno-fizyczno-angielskim z
             matematyką akademicką. W międzyczasie zmieniłam pole działania wolontaryjnego na Akademię Przyszłości,
-            gdzie</p>
+            gdz ie</p>
 
          <div className="right">
             <img src={mordka2} className="avatar_image left" alt="Krzysztof"/>
