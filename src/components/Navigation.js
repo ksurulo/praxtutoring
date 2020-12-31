@@ -12,7 +12,7 @@ import {
    Route,
    Link
 } from 'react-router-dom';
-import logo from '../images/a.jpg';
+import logo from '../images/zeszyt_resized.jpg';
 import {Offer} from './Offer';
 
 
