@@ -12,7 +12,7 @@ import {
    Route,
    Link
 } from 'react-router-dom';
-import logo from '../images/zeszyt_resized.jpg';
+import logo from '../images/a.jpg';
 import {Offer} from './Offer';
 
 
@@ -32,15 +32,15 @@ export function Navigation() {
                   textColor="primary"
                   className="navigation"
                >
-                  <Link to="/" style={{color: 'inherit', textDecoration: 'inherit'}}><Tab label="Home"
+                  <Link to="/" style={{color: 'inherit', textDecoration: 'inherit'}}><Tab label="Oferta"
                                                                                           className="navigation" /></Link>
 
-                  <Link to="/offer" style={{color: 'inherit', textDecoration: 'inherit'}}><Tab label="Oferta"
-                                                                                               className="navigation" /></Link>
+ {/*                 <Link to="/offer" style={{color: 'inherit', textDecoration: 'inherit'}}><Tab label="Oferta"
+                                                                                               className="navigation" /></Link>*/}
                   <Link to="/contact" style={{color: 'inherit', textDecoration: 'inherit'}}><Tab label="Kontakt"
                                                                                                  className="navigation" /></Link>
-                  <Link to="/about" style={{color: 'inherit', textDecoration: 'inherit'}}><Tab label="O nas"
-                                                                                               className="navigation" /></Link>
+{/*                  <Link to="/about" style={{color: 'inherit', textDecoration: 'inherit'}}><Tab label="O nas"
+                                                                                               className="navigation" /></Link>*/}
                </Tabs>
                <Switch>
                   <Route path="/about">
@@ -53,7 +53,7 @@ export function Navigation() {
                      <Offer />
                   </Route>
                   <Route path="/">
-                     <Home />
+                     <Offer />
                   </Route>
                </Switch>
             </Router>

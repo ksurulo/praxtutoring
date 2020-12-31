@@ -5,7 +5,6 @@ import React from 'react';
 import ContactRecord from './ContactRecord.js';
 import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Hidden from '@material-ui/core/Hidden';
 
 export default function Contact() {
@@ -20,14 +19,14 @@ export default function Contact() {
          <div className="subtitle">Kontakt</div>
 
          <ContactRecord
+            icon={<Hidden><EmailIcon fontSize="medium" /></Hidden>}
+            title="maria@praxtutoring.com"
+         />
+         <ContactRecord
             icon={<PhoneIcon fontSize="medium" />}
-            title="123456789"
+            title="662-592-948"
          />
 
-         <ContactRecord
-            icon={<PhoneIcon className='hidden' fontSize="medium" />}
-            title="123456789"
-         />
          <br />
          <br />
          <ContactRecord
@@ -35,23 +34,12 @@ export default function Contact() {
             title="krzysztof@praxtutoring.com"
          />
          <ContactRecord
-            icon={<Hidden><EmailIcon className='hidden' fontSize="medium" /></Hidden>}
-            title="maria@praxtutoring.com"
+            icon={<PhoneIcon fontSize="medium" />}
+            title="792-043-848"
          />
-         <ContactRecord
-            icon={<EmailIcon className='hidden' fontSize="medium" />}
-            title="korepetycje@praxtutoring.com"
-         />
+
          <br />
          <br />
-         <ContactRecord
-            icon={<LinkedInIcon fontSize="medium" />}
-            title="https://www.linkedin.com/in/maria-praxmayer-37b5a9177/"
-         />
-         <ContactRecord
-            icon={<LinkedInIcon  className='hidden' fontSize="medium" />}
-            title="https://www.linkedin.com/in/krzysztof-surulo/"
-         />
 
       </Paper>
    </Grid>;

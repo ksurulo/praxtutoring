@@ -4,16 +4,11 @@ import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import Fade from '@material-ui/core/Fade';
 import MenuItem from '@material-ui/core/MenuItem';
-import {makeStyles} from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import Table from '@material-ui/core/Table';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import TableCell from '@material-ui/core/TableCell';
-import TableBody from '@material-ui/core/TableBody';
-import TableContainer from '@material-ui/core/TableContainer';
+
 import '../App.css';
 import logo from '../images/zeszyt_resized.jpg';
+import {OfferTable} from './Table';
 
 
 export function Offer() {
@@ -21,32 +16,95 @@ export function Offer() {
    const initial_state = 'Wybierz poziom nauczania'
    const [anchorEl, setAnchorEl] = React.useState(null);
    const open = Boolean(anchorEl);
-   const [offerButtontext, setOfferButtonText] = React.useState(initial_state);
+   const [offerButtonText, setOfferButtonText] = React.useState(initial_state);
+   const [rows, setRows] = React.useState([]);
+   const [titles, setTitles] = React.useState([]);
 
 
-   const small_children = 'Szkoła podstawowa 1-4'
-   const children = 'Szkoła podstawowa 5-8'
-   const teens = 'Szkoła średnia'
-   const adults = 'Studia'
-
-   const useStyles = makeStyles({
-      table: {
-         minWidth: 650
-      }
-   });
+   const small_children = 'Nauczanie początkowe (klasy 1-3)'
+   const children = 'Szkoła podstawowa 4-8'
+   const teens = 'Szkoły ponadpodstawowe'
+   const exams = 'Przygotowania do egzaminów'
 
    function createData(name, price) {
       return {name, price};
    }
 
-   const rows = [
-      createData('Przygotowanie do matury z matematyki rozszerzonej', 50),
-      createData('Przygotowanie do matury z matematyki podstawowej', 12),
-      createData('Programowanie dla dzieci', 44),
-      createData('Tworzenie stron internetowych', 23)
-   ];
-   const classes = useStyles();
+   function createDataWithAddedColumn(name, price, price2) {
+      return {name, price, price2};
+   }
 
+   const getRows = (text) => {
+      if (text === small_children) {
+         return [
+            createData('Czytanie i pisanie', 35),
+            createData('Matematyka', 35),
+            createData('Język angielski', 35),
+            createData('Programowanie dla dzieci', 50)
+         ];
+      } else if (text === children) {
+         return [
+            createData('Matematyka', 40),
+            createData('Przyroda', 40),
+            createData('Fizyka', 40),
+            createData('Język angielski', 40),
+            createData('Wstęp do programowania', 50),
+            createData('Tworzenie aplikacji mobilnych (Android)', 60),
+            createData('Tworzenie stron internetowych', 60)
+         ];
+      } else if (text === teens) {
+         return [
+            createData('Matematyka poziom podstawowy', 40),
+            createData('Język angielski poziom podstawowy', 40),
+            createData('Fizyka poziom podstawowy', 40),
+            createData('Matematyka poziom rozszerzony', 40),
+            createData('Język angielski poziom rozszerzony', 40),
+            createData('Fizyka poziom rozszerzony', 40),
+            createData('Wstęp do programowania', 50),
+            createData('Tworzenie aplikacji mobilnych (Android)', 60),
+            createData('Tworzenie stron internetowych', 60)
+
+         ];
+      } else if (text === exams) {
+         return [
+            createDataWithAddedColumn('Egzamin ośmioklasisty - Matematyka', 45, '-'),
+            createDataWithAddedColumn('Egzamin ośmioklasisty - Angielski', 40, '-'),
+            createDataWithAddedColumn('Kursy maturalne - Matematyka poziom podstawowy', 50, 70),
+            createDataWithAddedColumn('Kursy maturalne - Angielski poziom podstawowy', 40, 60),
+            createDataWithAddedColumn('Kursy maturalne - Matematyka poziom rozszerzony', 55, 75),
+            createDataWithAddedColumn('Kursy maturalne - Angielski poziom rozszerzony', 55, 75)
+         ];
+      } else {
+         return [];
+      }
+   }
+
+   const getTitles = (text) => {
+      if (text === small_children) {
+         return [
+            'Przedmiot',
+            'Cena za 45 minut'
+         ];
+      } else if (text === children) {
+         return [
+            'Przedmiot',
+            'Cena za 60 minut'
+         ];
+      } else if (text === teens) {
+         return [
+            'Przedmiot',
+            'Cena za 60 minut'
+         ];
+      } else if (text === exams) {
+         return [
+            'Przedmiot',
+            'Cena za 60 minut',
+            'Cena za 90 minut'
+         ];
+      } else {
+         return [];
+      }
+   }
 
    const handleClick = (event) => {
       setAnchorEl(event.currentTarget);
@@ -57,8 +115,12 @@ export function Offer() {
 
       if (typeof text === 'string') {
          setOfferButtonText(text)
+         setRows(getRows(text));
+         setTitles(getTitles(text));
       } else {
          setOfferButtonText(initial_state)
+         setRows(getRows(text));
+         setTitles(getTitles(text));
       }
       setAnchorEl(null);
    };
@@ -71,44 +133,36 @@ export function Offer() {
       >
          <img src={logo} className="App-logo" alt="logo" />
          <Paper className="mainPaper">
-               <div className="subtitle">Oferta</div>
+            <div className="subtitle">Oferta</div>
 
-               <Button aria-controls="fade-menu" aria-haspopup="true" onClick={handleClick}>
-                  {offerButtontext}
-               </Button>
-               <Menu
-                  id="fade-menu"
-                  anchorEl={anchorEl}
-                  keepMounted
-                  open={open}
-                  onClose={handleClose}
-                  TransitionComponent={Fade}
-               >
-                  <MenuItem onClick={() => handleClose(small_children)}>{small_children}</MenuItem>
-                  <MenuItem onClick={() => handleClose(children)}>{children}</MenuItem>
-                  <MenuItem onClick={() => handleClose(teens)}>{teens}</MenuItem>
-                  <MenuItem onClick={() => handleClose(adults)}>{adults}</MenuItem>
-               </Menu>
-               <TableContainer component={Paper}>
-                  <Table className={classes.table} aria-label="simple table">
-                     <TableHead>
-                        <TableRow>
-                           <TableCell>Przedmiot</TableCell>
-                           <TableCell align="right">Cena</TableCell>
-                        </TableRow>
-                     </TableHead>
-                     <TableBody>
-                        {rows.map((row) => (
-                           <TableRow key={row.name}>
-                              <TableCell component="th" scope="row">
-                                 {row.name}
-                              </TableCell>
-                              <TableCell align="right">{row.price}</TableCell>
-                           </TableRow>
-                        ))}
-                     </TableBody>
-                  </Table>
-               </TableContainer>
+            <p className="text">Oferujemy szeroką gamę zajęć na każdym poziomie nauczania i poza nimi - pracę nad
+               bieżącym materiałem, przygotowania do egzaminów oraz indywidualne kursy umiejętności.
+            </p>
+            <p className="text">
+               Wybierz kategorię, która Cię interesuje i zacznij swoją przygodę z nauką!
+            </p>
+            <p className="text"> Ceny są poglądowe, dokładne będą ustalane po indywidualnej rozmowie z
+               prowadzącą/-ym.</p>
+
+            <Button aria-controls="fade-menu" aria-haspopup="true" onClick={handleClick}>
+               {offerButtonText}
+            </Button>
+            <Menu
+               id="fade-menu"
+               anchorEl={anchorEl}
+               keepMounted
+               open={open}
+               onClose={handleClose}
+               TransitionComponent={Fade}
+            >
+               <MenuItem onClick={() => handleClose(small_children)}>{small_children}</MenuItem>
+               <MenuItem onClick={() => handleClose(children)}>{children}</MenuItem>
+               <MenuItem onClick={() => handleClose(teens)}>{teens}</MenuItem>
+               <MenuItem onClick={() => handleClose(exams)}>{exams}</MenuItem>
+            </Menu>
+            <br />
+            <br />
+            <OfferTable rows={rows} titles={titles} />
          </Paper>
       </Grid>
    );
