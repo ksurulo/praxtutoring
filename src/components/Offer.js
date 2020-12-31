@@ -134,36 +134,37 @@ export function Offer() {
          <img src={logo} className="App-logo" alt="logo" />
          <Paper className="mainPaper">
             <div className="subtitle">Oferta</div>
-
-            <p className="text">Oferujemy szeroką gamę zajęć na każdym poziomie nauczania i poza nimi - pracę nad
-               bieżącym materiałem, przygotowania do egzaminów oraz indywidualne kursy umiejętności.
-            </p>
-            <p className="text">
-               Wybierz kategorię, która Cię interesuje i zacznij swoją przygodę z nauką!
-            </p>
-            <p className="text"> Ceny są poglądowe, dokładne będą ustalane po indywidualnej rozmowie z
-               prowadzącą/-ym.</p>
-
-            <Button aria-controls="fade-menu" aria-haspopup="true" onClick={handleClick}>
+            {offerButtonText !== initial_state ? null :
+               <div className={'offerText'}>
+                  <p className="text">Oferujemy szeroką gamę zajęć na każdym poziomie nauczania i poza nimi - pracę nad
+                     bieżącym materiałem, przygotowania do egzaminów oraz indywidualne kursy umiejętności.
+                  </p>
+                  <p className="text">
+                     Wybierz kategorię, która Cię interesuje i zacznij swoją przygodę z nauką!
+                  </p>
+                  <p className="text"> Ceny są poglądowe, dokładne będą ustalane po indywidualnej rozmowie z
+                     prowadzącą/-ym.</p>
+               </div>}
+               <Button aria-controls="fade-menu" aria-haspopup="true" onClick={handleClick}>
                {offerButtonText}
-            </Button>
-            <Menu
+               </Button>
+               <Menu
                id="fade-menu"
                anchorEl={anchorEl}
                keepMounted
                open={open}
                onClose={handleClose}
                TransitionComponent={Fade}
-            >
+               >
                <MenuItem onClick={() => handleClose(small_children)}>{small_children}</MenuItem>
                <MenuItem onClick={() => handleClose(children)}>{children}</MenuItem>
                <MenuItem onClick={() => handleClose(teens)}>{teens}</MenuItem>
                <MenuItem onClick={() => handleClose(exams)}>{exams}</MenuItem>
-            </Menu>
-            <br />
-            <br />
-            <OfferTable rows={rows} titles={titles} />
-         </Paper>
-      </Grid>
-   );
-}
+               </Menu>
+               <br />
+               <br />
+               <OfferTable rows={rows} titles={titles} />
+               </Paper>
+               </Grid>
+               );
+               }
