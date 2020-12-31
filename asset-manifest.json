@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/praxtutoring/static/css/main.73670bfb.chunk.css",
-    "main.js": "/praxtutoring/static/js/main.79c567c0.chunk.js",
-    "main.js.map": "/praxtutoring/static/js/main.79c567c0.chunk.js.map",
+    "main.js": "/praxtutoring/static/js/main.fb8b24db.chunk.js",
+    "main.js.map": "/praxtutoring/static/js/main.fb8b24db.chunk.js.map",
     "runtime-main.js": "/praxtutoring/static/js/runtime-main.bb230116.js",
     "runtime-main.js.map": "/praxtutoring/static/js/runtime-main.bb230116.js.map",
     "static/js/2.9072a9d1.chunk.js": "/praxtutoring/static/js/2.9072a9d1.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.bb230116.js",
     "static/js/2.9072a9d1.chunk.js",
     "static/css/main.73670bfb.chunk.css",
-    "static/js/main.79c567c0.chunk.js"
+    "static/js/main.fb8b24db.chunk.js"
   ]
 }
