@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/praxtutoring/static/css/main.ade0795d.chunk.css",
-    "main.js": "/praxtutoring/static/js/main.a4013b07.chunk.js",
-    "main.js.map": "/praxtutoring/static/js/main.a4013b07.chunk.js.map",
-    "runtime-main.js": "/praxtutoring/static/js/runtime-main.cfde2ec5.js",
-    "runtime-main.js.map": "/praxtutoring/static/js/runtime-main.cfde2ec5.js.map",
-    "static/js/2.4af253ef.chunk.js": "/praxtutoring/static/js/2.4af253ef.chunk.js",
-    "static/js/2.4af253ef.chunk.js.map": "/praxtutoring/static/js/2.4af253ef.chunk.js.map",
-    "static/js/3.5634185f.chunk.js": "/praxtutoring/static/js/3.5634185f.chunk.js",
-    "static/js/3.5634185f.chunk.js.map": "/praxtutoring/static/js/3.5634185f.chunk.js.map",
+    "main.css": "/praxtutoring/static/css/main.73670bfb.chunk.css",
+    "main.js": "/praxtutoring/static/js/main.79c567c0.chunk.js",
+    "main.js.map": "/praxtutoring/static/js/main.79c567c0.chunk.js.map",
+    "runtime-main.js": "/praxtutoring/static/js/runtime-main.bb230116.js",
+    "runtime-main.js.map": "/praxtutoring/static/js/runtime-main.bb230116.js.map",
+    "static/js/2.9072a9d1.chunk.js": "/praxtutoring/static/js/2.9072a9d1.chunk.js",
+    "static/js/2.9072a9d1.chunk.js.map": "/praxtutoring/static/js/2.9072a9d1.chunk.js.map",
+    "static/js/3.79e810e8.chunk.js": "/praxtutoring/static/js/3.79e810e8.chunk.js",
+    "static/js/3.79e810e8.chunk.js.map": "/praxtutoring/static/js/3.79e810e8.chunk.js.map",
     "index.html": "/praxtutoring/index.html",
-    "static/css/main.ade0795d.chunk.css.map": "/praxtutoring/static/css/main.ade0795d.chunk.css.map",
-    "static/js/2.4af253ef.chunk.js.LICENSE.txt": "/praxtutoring/static/js/2.4af253ef.chunk.js.LICENSE.txt",
+    "static/css/main.73670bfb.chunk.css.map": "/praxtutoring/static/css/main.73670bfb.chunk.css.map",
+    "static/js/2.9072a9d1.chunk.js.LICENSE.txt": "/praxtutoring/static/js/2.9072a9d1.chunk.js.LICENSE.txt",
     "static/media/moj_ryjek.64a2ba3d.jpg": "/praxtutoring/static/media/moj_ryjek.64a2ba3d.jpg",
     "static/media/index.css": "/praxtutoring/static/media/nyala.152bdbba.ttf",
     "static/media/ryjek.38bce102.jpg": "/praxtutoring/static/media/ryjek.38bce102.jpg",
     "static/media/zeszyt_resized.0fc8b0e6.jpg": "/praxtutoring/static/media/zeszyt_resized.0fc8b0e6.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cfde2ec5.js",
-    "static/js/2.4af253ef.chunk.js",
-    "static/css/main.ade0795d.chunk.css",
-    "static/js/main.a4013b07.chunk.js"
+    "static/js/runtime-main.bb230116.js",
+    "static/js/2.9072a9d1.chunk.js",
+    "static/css/main.73670bfb.chunk.css",
+    "static/js/main.79c567c0.chunk.js"
   ]
 }
