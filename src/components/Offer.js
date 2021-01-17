@@ -54,12 +54,12 @@ export function Offer() {
          ];
       } else if (text === teens) {
          return [
-            createData('Matematyka poziom podstawowy', 40),
-            createData('Język angielski poziom podstawowy', 40),
-            createData('Fizyka poziom podstawowy', 40),
-            createData('Matematyka poziom rozszerzony', 40),
-            createData('Język angielski poziom rozszerzony', 40),
-            createData('Fizyka poziom rozszerzony', 40),
+            createData('Matematyka poziom podstawowy', 45),
+            createData('Język angielski poziom podstawowy', 45),
+            createData('Fizyka poziom podstawowy', 45),
+            createData('Matematyka poziom rozszerzony', 50),
+            createData('Język angielski poziom rozszerzony', 50),
+            createData('Fizyka poziom rozszerzony', 50),
             createData('Wstęp do programowania', 50),
             createData('Tworzenie aplikacji mobilnych (Android)', 60),
             createData('Tworzenie stron internetowych', 60)
@@ -68,9 +68,9 @@ export function Offer() {
       } else if (text === exams) {
          return [
             createDataWithAddedColumn('Egzamin ośmioklasisty - Matematyka', 45, '-'),
-            createDataWithAddedColumn('Egzamin ośmioklasisty - Angielski', 40, '-'),
+            createDataWithAddedColumn('Egzamin ośmioklasisty - Angielski', 45, '-'),
             createDataWithAddedColumn('Kursy maturalne - Matematyka poziom podstawowy', 50, 70),
-            createDataWithAddedColumn('Kursy maturalne - Angielski poziom podstawowy', 40, 60),
+            createDataWithAddedColumn('Kursy maturalne - Angielski poziom podstawowy', 50, 70),
             createDataWithAddedColumn('Kursy maturalne - Matematyka poziom rozszerzony', 55, 75),
             createDataWithAddedColumn('Kursy maturalne - Angielski poziom rozszerzony', 55, 75)
          ];
